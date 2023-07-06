@@ -1,6 +1,8 @@
 import Logo from "./Logo";
 import "./styles/App.scss";
-const photo = require('./img/photo01.jpg');
+const photo01 = require('./img/photo01.jpg');
+const photo02 = require('./img/photo02.jpg');
+const photo03 = require('./img/photo03.jpg');
 
 function App() {
 
@@ -69,7 +71,7 @@ function App() {
               <div className="page__item item">
                 <div className="item__info">
                   <div className="item__text text-yellow">GEt Started</div>
-                  <div className="item__title">What level of  hiker are you?</div>
+                  <div className="item__title title01">What level of  hiker are you?</div>
                   <div className="item__text_litle">Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker?</div>
                   <div className="item__read-more">
                     <div className="item__read-more-text">read more</div>
@@ -79,7 +81,41 @@ function App() {
                   </div>
                 </div>
                 <div className="item__image">
-                  <img src={photo} alt="" className="item__photo" />
+                  <img src={photo01} alt="" className="item__photo" />
+                </div>
+              </div>
+
+              <div className="page__item2 item">
+                <div className="item__info">
+                  <div className="item__text text-yellow">Hiking Essentials</div>
+                  <div className="item__title title02">Picking the right Hiking Gear!</div>
+                  <div className="item__text_litle">The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get away with things you already have. Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet.</div>
+                  <div className="item__read-more">
+                    <div className="item__read-more-text">read more</div>
+                    <svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16 -6.99382e-07L14.59 1.41L20.17 7L-3.93402e-07 7L-3.0598e-07 9L20.17 9L14.58 14.58L16 16L24 8L16 -6.99382e-07Z" fill="#FBD784" />
+                    </svg>
+                  </div>
+                </div>
+                <div className="item__image">
+                  <img src={photo02} alt="" className="item__photo" />
+                </div>
+              </div>
+
+              <div className="page__item item">
+                <div className="item__info">
+                  <div className="item__text text-yellow">where you go is the key</div>
+                  <div className="item__title title03">Understand Your Map & Timing</div>
+                  <div className="item__text_litle">To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction..</div>
+                  <div className="item__read-more">
+                    <div className="item__read-more-text">read more</div>
+                    <svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16 -6.99382e-07L14.59 1.41L20.17 7L-3.93402e-07 7L-3.0598e-07 9L20.17 9L14.58 14.58L16 16L24 8L16 -6.99382e-07Z" fill="#FBD784" />
+                    </svg>
+                  </div>
+                </div>
+                <div className="item__image">
+                  <img src={photo03} alt="" className="item__photo" />
                 </div>
               </div>
             </div>
@@ -87,7 +123,29 @@ function App() {
         </section>
       </main>
       <footer className="footer">
-        footer
+        <div className="footer__container-lower">
+          <div className="footer__info">
+            <Logo />
+            <div className="footer__text">Get out there & discover your next slope, mountain & destination!</div>
+            <div className="footer__creator-text">Copyright 2019 MNTN, Inc. Terms & Privacy</div>
+          </div>
+          <div className="footer__listes">
+            <ul className="footer__list">
+              <li className="footer__list-item">More on The Blog</li>
+              <li className="footer__list-item">About MNTN</li>
+              <li className="footer__list-item">Contributors & Writers</li>
+              <li className="footer__list-item">Write For Us</li>
+              <li className="footer__list-item">Contact Us</li>
+              <li className="footer__list-item">Privacy Policy</li>
+            </ul>
+            <ul className="footer__list">
+              <li className="footer__list-item">More on MNTN</li>
+              <li className="footer__list-item">The Team</li>
+              <li className="footer__list-item">Jobs</li>
+              <li className="footer__list-item">Press</li>
+            </ul>
+          </div>
+        </div>
       </footer>
     </div>
   );
