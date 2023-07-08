@@ -34,6 +34,29 @@ body {
     padding: 0px 15px;
 }
 
+@mixin underLine($bg) {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 3px;
+        background-color: $bg;
+        right: 0;
+        bottom: -7px;
+        transition: 0.3s;
+    }
+
+    &:hover {
+        &::before {
+            left: 0;
+            width: 100%;
+            transition: 0.3s;
+        }
+    }
+}
+
 .page {
     flex: 1 1 auto;
 }
@@ -82,12 +105,6 @@ body {
         flex: 0 0 auto;
         position: relative;
         z-index: 5;
-        
-        &:hover {
-            text-decoration: underline;
-            text-decoration-thickness: 3px;
-            text-underline-offset: 10px;
-        }
 
         @media (max-width: 575.98px) {
             margin-left: auto;
@@ -95,7 +112,17 @@ body {
         }
     }
 
-    &__account-text {}
+    &__account-text {
+        @include underLine(#FFF);
+
+        @media (max-width: 575.98px) {
+            &:hover {
+                &::before {
+                    width: 0;
+                }
+            }
+        }
+    }
 }
 
 .menu {
@@ -117,16 +144,19 @@ body {
     &__item {}
 
     &__link {
+        @include underLine(#FFF);
+
         @media (max-width: 575.98px) {
             display: block;
             font-size: 32px;
+
+            &:hover {
+                &::before {
+                    width: 0;
+                }
+            }
         }
 
-        &:hover {
-            text-decoration: underline;
-            text-decoration-thickness: 3px;
-            text-underline-offset: 10px;
-        }
     }
 
     @media (max-width: 575.98px) {
@@ -262,11 +292,7 @@ body {
         line-height: normal;
         cursor: pointer;
 
-        &:hover {
-            text-decoration: underline;
-            text-decoration-thickness: 3px;
-            text-underline-offset: 10px;
-        }
+        @include underLine(#FFF);
     }
 }
 
@@ -415,11 +441,7 @@ body {
         &-text {
             cursor: pointer;
 
-            &:hover {
-                text-decoration: underline;
-                text-decoration-thickness: 3px;
-                text-underline-offset: 10px;
-            }
+            @include underLine(#FBD784);
         }
 
         & svg {
@@ -527,11 +549,7 @@ body {
         }
 
         & a {
-            &:hover {
-                text-decoration: underline;
-                text-decoration-thickness: 3px;
-                text-underline-offset: 10px;
-            }
+            @include underLine(#FFF);
         }
 
     }

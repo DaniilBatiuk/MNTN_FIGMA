@@ -19,27 +19,27 @@ function App() {
     <div className="wrapper">
       <header className="header">
         <div className="header__container">
-          <a href="" className="header__logo">
+          <a href="/" className="header__logo">
             <Logo />
           </a>
           <nav className="header__menu menu">
             <div className="menu__body">
               <ul className="menu__list">
                 <li className="menu__item">
-                  <a href="" className="menu__link">Equipment</a>
+                  <a href="/" className="menu__link">Equipment</a>
                 </li>
                 <li className="menu__item">
-                  <a href="" className="menu__link">About us</a>
+                  <a href="/" className="menu__link">About us</a>
                 </li>
                 <li className="menu__item">
-                  <a href="" className="menu__link">Blog</a>
+                  <a href="/" className="menu__link">Blog</a>
                 </li>
               </ul>
             </div>
           </nav>
           <div className="header__account">
             <User />
-            <a href="" className="header__account-text">Account</a>
+            <a href="/" className="header__account-text">Account</a>
           </div>
           <button className="icon-menu" type="button" onClick={menuOpen}>
             <span></span>
@@ -118,17 +118,17 @@ function App() {
           <div className="footer__listes">
             <ul className="footer__list">
               <li className="footer__list-item"> More on The Blog</li>
-              <li className="footer__list-item"> <a href="">About MNTN</a></li>
-              <li className="footer__list-item"> <a href="">Contributors & Writers</a></li>
-              <li className="footer__list-item"> <a href="">Write For Us</a></li>
-              <li className="footer__list-item"> <a href="">Contact Us</a></li>
-              <li className="footer__list-item"> <a href="">Privacy Policy</a></li>
+              <li className="footer__list-item"> <a href="/">About MNTN</a></li>
+              <li className="footer__list-item"> <a href="/">Contributors & Writers</a></li>
+              <li className="footer__list-item"> <a href="/">Write For Us</a></li>
+              <li className="footer__list-item"> <a href="/">Contact Us</a></li>
+              <li className="footer__list-item"> <a href="/">Privacy Policy</a></li>
             </ul>
             <ul className="footer__list">
               <li className="footer__list-item">More on MNTN</li>
-              <li className="footer__list-item"> <a href="">The Team</a></li>
-              <li className="footer__list-item"> <a href="">Jobs</a></li>
-              <li className="footer__list-item"> <a href="">Press</a></li>
+              <li className="footer__list-item"> <a href="/">The Team</a></li>
+              <li className="footer__list-item"> <a href="/">Jobs</a></li>
+              <li className="footer__list-item"> <a href="/">Press</a></li>
             </ul>
           </div>
         </div>
