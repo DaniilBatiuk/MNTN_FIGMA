@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/MNTN_FIGMA/static/css/main.1674d855.css",
+    "main.js": "/MNTN_FIGMA/static/js/main.e10fbfcd.js",
+    "static/media/BG.jpg": "/MNTN_FIGMA/static/media/BG.6a693b7eaeca728d07c3.jpg",
+    "static/media/photo02.jpg": "/MNTN_FIGMA/static/media/photo02.801c9bda013a67b5e5ba.jpg",
+    "static/media/photo03.jpg": "/MNTN_FIGMA/static/media/photo03.8692ed43fecd839bb416.jpg",
+    "static/media/photo01.jpg": "/MNTN_FIGMA/static/media/photo01.09b5182cf83387c39a7e.jpg",
+    "static/media/Logo.svg": "/MNTN_FIGMA/static/media/Logo.dcec4480d49090c33f150ab95acc423c.svg",
+    "static/media/user.svg": "/MNTN_FIGMA/static/media/user.8e8a02af68740b75ae02e20d9a3035c2.svg",
+    "index.html": "/MNTN_FIGMA/index.html",
+    "static/media/arrow-down.svg": "/MNTN_FIGMA/static/media/arrow-down.c036f5d737c94b71dc3fd3d77c568db4.svg",
+    "static/media/arrow-right.svg": "/MNTN_FIGMA/static/media/arrow-right.82322c14d2755d5dd55c00b043bb9627.svg",
+    "main.1674d855.css.map": "/MNTN_FIGMA/static/css/main.1674d855.css.map",
+    "main.e10fbfcd.js.map": "/MNTN_FIGMA/static/js/main.e10fbfcd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1674d855.css",
+    "static/js/main.e10fbfcd.js"
+  ]
+}
